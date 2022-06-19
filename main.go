@@ -8,6 +8,7 @@ func main()  {
 		menampilkan pesan hello world
 	*/
 
+	fmt.Println("=================")
 	fmt.Printf("Hello World!\n") // karena tidak otomatis line baru maka ditambah \n
 	fmt.Println("testing") // tidak perlu \n karena sudah otomatis line baru
 
@@ -15,7 +16,7 @@ func main()  {
 
 	/* ======================== */
 	// Belajar Variabel
-	var firstName string = "Dani"
+	var firstName string = "Dani" // Deklarasi variabel dengan menuliskan var dan tipe data atau disebut manifest typing
 
 	lastName := "Munif" // Deklarasi variabel tanpa tipe data, otomatis mengikuti tipe data nilainya. harus pakai titik dua samadengan (atau disebut Type Inference)
 
@@ -35,5 +36,13 @@ func main()  {
 	   nnti ada penjelasannya
 	*/
 
+	fmt.Println("=================")
 	fmt.Printf("Halo %s %s!\nKamu sekarang berusia %s\nDengan tinggi badan %s\nDan berat badan %s", firstName, lastName, usia, tinggiBadan, beratBadan)
+
+	/* =================== */
+	/* Belajar Tipe Data */
+
+
+
+	fmt.Println("=================")
 }
